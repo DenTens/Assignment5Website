@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #335;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: lavender;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: cornflowerblue;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: cornflowerblue;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+h1{
+  color:lavender;
+}
+h2{
+  color:lavender;
+}
+body {
+  background-color: mediumpurple;
+}
+p{
+  color: lavender;
+}
+</style>
+</head>
+<center>
+<body>
+
+<div class="navbar">
+  <a href="index.html">About Me</a>
+
+  <div class="subnav">
+    <button class="subnavbtn">Course <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="http://gaia.cs.umass.edu/kurose_ross/online_lectures.htm">Course Textbook</a>
+      <a href="http://w3schools.com">W3Schools Website</a>
+      <a href="https://www.geeksforgeeks.org/web-development/">Geeks4Geeks Website</a>
+    </div>
+  </div>
+      <div class="subnav">
+    <button class="subnavbtn">Browser <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="Navigator.html">Navigator</a>
+      <a href="Window.html">Window</a>
+      <a href="Screen.html">Screen</a>
+      <a href="Location.html">Location</a>
+      <a href="Geolocation.html">Geolocation</a>
+    </div>
+  </div>
+  <a href="Contact.html">Contact</a>
+  </div>
+</body>
+<h2>JavaScript Window</h2>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML =
+"Browser inner window width: " + window.innerWidth + "px<br>" +
+"Browser inner window height: " + window.innerHeight + "px";
+</script>
+</center>
+
+</body>
+</html>

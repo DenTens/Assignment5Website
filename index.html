@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #335;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: lavender;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: cornflowerblue;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: cornflowerblue;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+h1{
+  color:lavender;
+}
+h2{
+  color:lavender;
+}
+body {
+  background-color: mediumpurple;
+}
+p{
+  color: lavender;
+}
+</style>
+</head>
+<center>
+<body>
+
+<div class="navbar">
+  <a href="index.html">About Me</a>
+
+  <div class="subnav">
+    <button class="subnavbtn">Course <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="http://gaia.cs.umass.edu/kurose_ross/online_lectures.htm">Course Textbook</a>
+      <a href="http://w3schools.com">W3Schools Website</a>
+      <a href="https://www.geeksforgeeks.org/web-development/">Geeks4Geeks Website</a>
+    </div>
+  </div>
+      <div class="subnav">
+    <button class="subnavbtn">Browser <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="Navigator.html">Navigator</a>
+      <a href="Window.html">Window</a>
+      <a href="Screen.html">Screen</a>
+      <a href="Location.html">Location</a>
+      <a href="Geolocation.html">Geolocation</a>
+    </div>
+  </div>
+  <a href="Contact.html">Contact</a>
+  </div>
+</div>
+<div style="padding:0 16px">
+  <h1>Welcome To Assignment 5</h1>
+  <h2>Who Am I?</h2>
+   <img src="https://cdna.artstation.com/p/assets/images/images/030/510/618/large/joey-vazquez-batman-beyond-copy.jpg?1600819406" alt="Batman Beyond (AKA Me)"
+   style="width:400px;height:500px;">
+
+  <h2>About Me</h2>
+
+  <p>Hello, my name is Denis Troy. I am a Computer Science student at CUNY Queens College. I work full time as a paraprofessional in the
+  Department of Education. My goal is to graduate by May 2024 and start my career as a Software Engineer or something related to that field.
+    I hope that whoever is reading this knows how dedicated I am to the study of Computer Science and using best practices. Thank you for reading my bio. </p>
+
+  <h2>My Website</h2>
+   <p> If you'd like you can look around my website and tinker with the menu and submenu options. If you click on Course, you'll find links to several
+     great resources for Networking and Front/Back End Development. If not that, try clicking on Browser and see the intricacies of The Browser Object Model (BOM).
+     If you have any questions, click on Contact and send me a personal email with your question and I'll get back to you ASAP. Otherwise, Have a great day!</p>
+</div>
+</center>
+</body>
+</html>
